@@ -31,19 +31,11 @@ func newApp() *iris.Application {
 			return ctx.Request().Context()
 		}).
 		// Bind loginRequest.
-		// Register(func(ctx iris.Context) loginRequest {
-		// 	var req loginRequest
-		// 	ctx.ReadJSON(&req)
-		// 	return req
-		// }).
-		// OR
-		// Bind any other structure or pointer to a structure from request's
-		// XML
-		// YAML
-		// Query
-		// Form
-		// JSON (default, if not client's "Content-Type" specified otherwise)
-		Register(mvc.AutoBinding).
+		Register(func(ctx iris.Context) loginRequest {
+			var req loginRequest
+			ctx.ReadJSON(&req)
+			return req
+		}).
 		Handle(&myController{})
 
 	return app

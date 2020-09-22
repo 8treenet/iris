@@ -21,9 +21,9 @@ Los desarrolladores no están obligados a actualizar si realmente no lo necesita
 
 **Cómo actualizar**: Abra su línea de comandos y ejecute este comando: `go get github.com/kataras/iris/v12@latest`.
 
-# Su, 16 February 2020 | v12.1.8
+# Mo, 10 February 2020 | v12.1.7
 
-Not translated yet, please navigate to the [english version](HISTORY.md#su-16-february-2020--v1218) instead.
+Not translated yet, please navigate to the [english version](HISTORY.md#mo-10-february-2020--v1217) instead.
 
 # Sábado, 26 de octubre 2019 | v12.0.0
 

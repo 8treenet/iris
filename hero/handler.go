@@ -11,17 +11,31 @@ import (
 	"github.com/kataras/golog"
 )
 
-// var genericFuncTyp = reflect.TypeOf(func(context.Context) reflect.Value { return reflect.Value{} })
+var contextTyp = reflect.TypeOf((*context.Context)(nil)).Elem()
 
-// // IsGenericFunc reports whether the "inTyp" is a type of func(Context) interface{}.
-// func IsGenericFunc(inTyp reflect.Type) bool {
-// 	return inTyp == genericFuncTyp
-// }
+// IsContext returns true if the "inTyp" is a type of Context.
+func IsContext(inTyp reflect.Type) bool {
+	return inTyp.Implements(contextTyp)
+}
+
+// var genericFuncTyp = reflect.TypeOf(func(context.Context) interface{} { return nil })
+var genericFuncTyp = reflect.TypeOf(func(context.Context) reflect.Value { return reflect.Value{} })
+
+// IsGenericFunc reports whether the "inTyp" is a type of func(Context) interface{}.
+func IsGenericFunc(inTyp reflect.Type) bool {
+	return inTyp == genericFuncTyp
+}
 
 // checks if "handler" is context.Handler: func(context.Context).
 func isContextHandler(handler interface{}) (context.Handler, bool) {
-	h, ok := handler.(context.Handler)
-	return h, ok
+	h, is := handler.(context.Handler)
+	if !is {
+		fh, is := handler.(func(context.Context))
+		if is {
+			return fh, is
+		}
+	}
+	return h, is
 }
 
 func validateHandler(handler interface{}) error {
@@ -58,7 +72,7 @@ func makeHandler(handler interface{}, errorHandler di.ErrorHandler, values ...re
 	}
 
 	funcInjector := di.Func(fn, values...)
-	funcInjector.ErrorHandler = errorHandler
+	funcInjector.ErrorHandler(errorHandler)
 
 	valid := funcInjector.Length == n
 
