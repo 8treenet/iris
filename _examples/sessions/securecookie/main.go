@@ -6,9 +6,9 @@ package main
 // $ go run main.go
 
 import (
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 
-	"github.com/kataras/iris/v12/sessions"
+	"github.com/8treenet/iris/v12/sessions"
 
 	"github.com/gorilla/securecookie"
 )

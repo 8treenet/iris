@@ -3,11 +3,11 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris/v12/_examples/hero/sessions/routes"
+	"github.com/8treenet/iris/v12/_examples/hero/sessions/routes"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/hero" // <- IMPORTANT
-	"github.com/kataras/iris/v12/sessions"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/hero" // <- IMPORTANT
+	"github.com/8treenet/iris/v12/sessions"
 )
 
 func main() {

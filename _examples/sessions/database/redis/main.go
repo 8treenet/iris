@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 
-	"github.com/kataras/iris/v12/sessions"
-	"github.com/kataras/iris/v12/sessions/sessiondb/redis"
+	"github.com/8treenet/iris/v12/sessions"
+	"github.com/8treenet/iris/v12/sessions/sessiondb/redis"
 )
 
 // tested with redis version 3.0.503.

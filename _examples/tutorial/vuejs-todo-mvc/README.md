@@ -31,7 +31,7 @@ You’ll need two dependencies:
 1. Vue.js, for our client-side requirements. Download it from [here](https://vuejs.org/), latest v2.
 2. The Iris Web Framework, for our server-side requirements. Can be found [here](https://github.com/kataras/iris), latest v12.
 
-> If you have Go already installed then just execute `go get github.com/kataras/iris/v12@latest` to install the Iris Web Framework.
+> If you have Go already installed then just execute `go get github.com/8treenet/iris/v12@latest` to install the Iris Web Framework.
 
 ## Start
 
@@ -427,10 +427,10 @@ package controllers
 import (
 	"vuejs-todo-mvc/todo"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/mvc"
-	"github.com/kataras/iris/v12/sessions"
-	"github.com/kataras/iris/v12/websocket"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/mvc"
+	"github.com/8treenet/iris/v12/sessions"
+	"github.com/8treenet/iris/v12/websocket"
 )
 
 // TodoController is our TODO app's web controller.
@@ -501,11 +501,11 @@ import (
     "vuejs-todo-mvc/todo"
     "vuejs-todo-mvc/web/controllers"
 
-    "github.com/kataras/iris/v12"
-    "github.com/kataras/iris/v12/sessions"
-    "github.com/kataras/iris/v12/websocket"
+    "github.com/8treenet/iris/v12"
+    "github.com/8treenet/iris/v12/sessions"
+    "github.com/8treenet/iris/v12/websocket"
 
-    "github.com/kataras/iris/v12/mvc"
+    "github.com/8treenet/iris/v12/mvc"
 )
 
 func main() {

@@ -2,7 +2,7 @@
 
 package datasource
 
-import "github.com/kataras/iris/v12/_examples/hero/overview/datamodels"
+import "github.com/8treenet/iris/v12/_examples/hero/overview/datamodels"
 
 // Movies is our imaginary data source.
 var Movies = map[int64]datamodels.Movie{

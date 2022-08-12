@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/kataras/iris/v12/core/netutil"
+	"github.com/8treenet/iris/v12/core/netutil"
 )
 
 // WriteStartupLogOnServe is a task which accepts a logger(io.Writer)

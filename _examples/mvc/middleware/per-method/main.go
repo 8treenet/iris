@@ -69,9 +69,9 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/cache"
-	"github.com/kataras/iris/v12/mvc"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/cache"
+	"github.com/8treenet/iris/v12/mvc"
 )
 
 var cacheHandler = cache.Handler(10 * time.Second)

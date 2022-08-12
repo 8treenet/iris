@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/websocket"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/websocket"
 )
 
 type clientPage struct {

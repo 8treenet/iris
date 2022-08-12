@@ -5,10 +5,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 
-	"github.com/kataras/iris/v12/sessions"
-	"github.com/kataras/iris/v12/sessions/sessiondb/boltdb"
+	"github.com/8treenet/iris/v12/sessions"
+	"github.com/8treenet/iris/v12/sessions/sessiondb/boltdb"
 )
 
 func main() {

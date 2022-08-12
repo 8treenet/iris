@@ -3,11 +3,11 @@ package mvc_test
 import (
 	"testing"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/context"
-	"github.com/kataras/iris/v12/httptest"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/context"
+	"github.com/8treenet/iris/v12/httptest"
 
-	. "github.com/kataras/iris/v12/mvc"
+	. "github.com/8treenet/iris/v12/mvc"
 )
 
 // service

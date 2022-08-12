@@ -54,7 +54,7 @@ import (
     "strings"
     "sync"
 
-    "github.com/kataras/iris/v12"
+    "github.com/8treenet/iris/v12"
 
     "github.com/nfnt/resize" // $ go get -u github.com/nfnt/resize
 )

@@ -19,7 +19,7 @@
 
 Los desarrolladores no están obligados a actualizar si realmente no lo necesitan. Actualice siempre que se sienta listo.
 
-**Cómo actualizar**: Abra su línea de comandos y ejecute este comando: `go get github.com/kataras/iris/v12@latest`.
+**Cómo actualizar**: Abra su línea de comandos y ejecute este comando: `go get github.com/8treenet/iris/v12@latest`.
 
 # Mo, 10 February 2020 | v12.1.7
 
@@ -49,7 +49,7 @@ Not translated yet, please navigate to the [english version](HISTORY.md#mo-10-fe
 - Se creó traducción en koreano [README_KO](README_KO.md) en [PR #1356](https://github.com/kataras/iris/pull/1356)
 - Se creó traducción en español [README_ES](README_ES.md) y [HISTORY_ES](HISTORY_ES.md) en [PR #1344](https://github.com/kataras/iris/pull/1344).
 
-iris-contrib/middleare y ejemplos se actualizaron para utilizar la nueva ruta de importación `github.com/kataras/iris/v12`.
+iris-contrib/middleare y ejemplos se actualizaron para utilizar la nueva ruta de importación `github.com/8treenet/iris/v12`.
 
 # Viernes, 16 de agosto 2019 | v11.2.8
 
@@ -116,7 +116,7 @@ Registro de commits: https://github.com/kataras/iris/compare/v11.2.3...v11.2.4
 Sesiones como middleware:
 
 ```go
-import "github.com/kataras/iris/v12/sessions"
+import "github.com/8treenet/iris/v12/sessions"
 // [...]
 
 app := iris.New()

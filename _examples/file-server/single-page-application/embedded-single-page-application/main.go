@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 )
 
 // $ go get -u github.com/go-bindata/go-bindata/...

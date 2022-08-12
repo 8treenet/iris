@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 )
 
 var addr = flag.String("addr", ":8080", "host:port to listen on")

@@ -21,7 +21,7 @@ Add a `badge` to your open-source projects powered by [Iris](https://iris-go.com
 ## How to upgrade
 
 ```sh
-go get -u github.com/kataras/iris/v12@latest
+go get -u github.com/8treenet/iris/v12@latest
 ```
 
 Go version 1.13 and above is required.

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 
-	"github.com/kataras/iris/v12/typescript"
+	"github.com/8treenet/iris/v12/typescript"
 )
 
 // NOTE: Some machines don't allow to install typescript automatically, so if you don't have typescript installed

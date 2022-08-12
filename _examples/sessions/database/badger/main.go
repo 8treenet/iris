@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 
-	"github.com/kataras/iris/v12/sessions"
-	"github.com/kataras/iris/v12/sessions/sessiondb/badger"
+	"github.com/8treenet/iris/v12/sessions"
+	"github.com/8treenet/iris/v12/sessions/sessiondb/badger"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 
 	// optionally, registers filters like `timesince`.
 	_ "github.com/iris-contrib/pongo2-addons"

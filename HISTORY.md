@@ -19,7 +19,7 @@
 
 Developers are not forced to upgrade if they don't really need it. Upgrade whenever you feel ready.
 
-**How to upgrade**: Open your command-line and execute this command: `go get github.com/kataras/iris/v12@latest`.
+**How to upgrade**: Open your command-line and execute this command: `go get github.com/8treenet/iris/v12@latest`.
 
 # Mo, 10 February 2020 | v12.1.7
 
@@ -149,7 +149,7 @@ Navigate through: https://github.com/kataras/iris/wiki/Sitemap for more.
 - Create Korean [README_KO](README_KO.md) translation with [PR #1356](https://github.com/kataras/iris/pull/1356)
 - Create Spanish [README_ES](README_ES.md) and [HISTORY_ES](HISTORY_ES.md) translations with [PR #1344](https://github.com/kataras/iris/pull/1344).
 
-The iris-contrib/middleare and examples are updated to use the new `github.com/kataras/iris/v12` import path.
+The iris-contrib/middleare and examples are updated to use the new `github.com/8treenet/iris/v12` import path.
 
 # Fr, 16 August 2019 | v11.2.8
 
@@ -216,7 +216,7 @@ Commit log: https://github.com/kataras/iris/compare/v11.2.3...v11.2.4
 Sessions as middleware:
 
 ```go
-import "github.com/kataras/iris/v12/sessions"
+import "github.com/8treenet/iris/v12/sessions"
 // [...]
 
 app := iris.New()

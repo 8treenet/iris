@@ -1,9 +1,10 @@
+//go:build windows
 // +build windows
 
 package main
 
 import (
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 	"github.com/raintean/blink"
 )
 

@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 )
 
 const maxSize = 5 << 20 // 5MB

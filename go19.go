@@ -1,11 +1,12 @@
+//go:build go1.9
 // +build go1.9
 
 package iris
 
 import (
-	"github.com/kataras/iris/v12/context"
-	"github.com/kataras/iris/v12/core/host"
-	"github.com/kataras/iris/v12/core/router"
+	"github.com/8treenet/iris/v12/context"
+	"github.com/8treenet/iris/v12/core/host"
+	"github.com/8treenet/iris/v12/core/router"
 )
 
 type (

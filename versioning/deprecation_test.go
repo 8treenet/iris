@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/httptest"
-	"github.com/kataras/iris/v12/versioning"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/httptest"
+	"github.com/8treenet/iris/v12/versioning"
 )
 
 func TestDeprecated(t *testing.T) {

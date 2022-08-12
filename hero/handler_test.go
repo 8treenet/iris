@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/httptest"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/httptest"
 
-	. "github.com/kataras/iris/v12/hero"
+	. "github.com/8treenet/iris/v12/hero"
 )
 
 // dynamic func

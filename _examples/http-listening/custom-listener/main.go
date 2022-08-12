@@ -3,7 +3,7 @@ package main
 import (
 	"net"
 
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 )
 
 func main() {

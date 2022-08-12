@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/kataras/iris/v12/context"
+	"github.com/8treenet/iris/v12/context"
 )
 
 // Scope is the struct injector's struct value scope/permant state.

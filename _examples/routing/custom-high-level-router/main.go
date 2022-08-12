@@ -3,8 +3,8 @@ package main
 import (
 	"strings"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/core/router"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/core/router"
 )
 
 /* A Router should contain all three of the following methods:

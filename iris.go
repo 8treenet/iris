@@ -17,24 +17,24 @@ import (
 	"time"
 
 	// context for the handlers
-	"github.com/kataras/iris/v12/context"
+	"github.com/8treenet/iris/v12/context"
 	// core packages, required to build the application
-	"github.com/kataras/iris/v12/core/errgroup"
-	"github.com/kataras/iris/v12/core/host"
-	"github.com/kataras/iris/v12/core/netutil"
-	"github.com/kataras/iris/v12/core/router"
+	"github.com/8treenet/iris/v12/core/errgroup"
+	"github.com/8treenet/iris/v12/core/host"
+	"github.com/8treenet/iris/v12/core/netutil"
+	"github.com/8treenet/iris/v12/core/router"
 
 	// handlerconv conversions
-	"github.com/kataras/iris/v12/core/handlerconv"
+	"github.com/8treenet/iris/v12/core/handlerconv"
 	// cache conversions
-	"github.com/kataras/iris/v12/cache"
+	"github.com/8treenet/iris/v12/cache"
 	// view
-	"github.com/kataras/iris/v12/view"
+	"github.com/8treenet/iris/v12/view"
 	// i18n
-	"github.com/kataras/iris/v12/i18n"
+	"github.com/8treenet/iris/v12/i18n"
 	// handlers used in `Default` function
-	requestLogger "github.com/kataras/iris/v12/middleware/logger"
-	"github.com/kataras/iris/v12/middleware/recover"
+	requestLogger "github.com/8treenet/iris/v12/middleware/logger"
+	"github.com/8treenet/iris/v12/middleware/recover"
 
 	"github.com/kataras/golog"
 	"gopkg.in/yaml.v3"
@@ -454,7 +454,7 @@ var (
 	// Cache304 sends a `StatusNotModified` (304) whenever
 	// the "If-Modified-Since" request header (time) is before the
 	// time.Now() + expiresEvery (always compared to their UTC values).
-	// Use this, which is a shortcut of the, `chache#Cache304` instead of the "github.com/kataras/iris/v12/cache" or iris.Cache
+	// Use this, which is a shortcut of the, `chache#Cache304` instead of the "github.com/8treenet/iris/v12/cache" or iris.Cache
 	// for better performance.
 	// Clients that are compatible with the http RCF (all browsers are and tools like postman)
 	// will handle the caching.
@@ -687,7 +687,7 @@ func (app *Application) Shutdown(ctx stdContext.Context) error {
 // If error occurred while building the Application, the returns type of error will be an *errgroup.Group
 // which let the callers to inspect the errors and cause, usage:
 //
-// import "github.com/kataras/iris/v12/core/errgroup"
+// import "github.com/8treenet/iris/v12/core/errgroup"
 //
 // errgroup.Walk(app.Build(), func(typ interface{}, err error) {
 // 	app.Logger().Errorf("%s: %s", typ, err)

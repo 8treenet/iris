@@ -1,3 +1,4 @@
+//go:build linux || darwin || dragonfly || freebsd || netbsd || openbsd || rumprun
 // +build linux darwin dragonfly freebsd netbsd openbsd rumprun
 
 package main
@@ -16,7 +17,7 @@ import (
 	//   - TCP_FASTOPEN. See https://lwn.net/Articles/508865/ for details.
 	"github.com/valyala/tcplisten"
 
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 )
 
 // You can run the same app as many times as you want.

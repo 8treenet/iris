@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/mvc"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/mvc"
 )
 
 // See https://github.com/kataras/iris/issues/1449
@@ -26,7 +26,7 @@ func newApp() *iris.Application {
 
 	mvc.New(app).
 		// Request-scope binding for context.Context-type controller's method or field.
-		// (or import github.com/kataras/iris/v12/hero and hero.Register(...))
+		// (or import github.com/8treenet/iris/v12/hero and hero.Register(...))
 		Register(func(ctx iris.Context) context.Context {
 			return ctx.Request().Context()
 		}).

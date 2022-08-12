@@ -5,7 +5,7 @@ package editor
 Usage:
 
 
-	import "github.com/kataras/iris/v12/typescript/editor"
+	import "github.com/8treenet/iris/v12/typescript/editor"
 	[...]
 
 	app := iris.New()
@@ -30,7 +30,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/kataras/iris/v12/typescript/npm"
+	"github.com/8treenet/iris/v12/typescript/npm"
 )
 
 type (

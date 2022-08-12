@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/kataras/iris/v12/mvc"
+import "github.com/8treenet/iris/v12/mvc"
 
 type AboutController struct{}
 

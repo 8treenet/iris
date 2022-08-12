@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kataras/iris/v12/macro"
+	"github.com/8treenet/iris/v12/macro"
 )
 
 // RouteReadOnly allows decoupled access to the current route

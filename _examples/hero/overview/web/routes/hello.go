@@ -5,7 +5,7 @@ package routes
 import (
 	"errors"
 
-	"github.com/kataras/iris/v12/hero"
+	"github.com/8treenet/iris/v12/hero"
 )
 
 var helloView = hero.View{

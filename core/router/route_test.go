@@ -5,7 +5,7 @@ package router
 import (
 	"testing"
 
-	"github.com/kataras/iris/v12/macro"
+	"github.com/8treenet/iris/v12/macro"
 )
 
 func TestRouteStaticPath(t *testing.T) {

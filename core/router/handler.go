@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kataras/iris/v12/context"
-	"github.com/kataras/iris/v12/core/errgroup"
-	"github.com/kataras/iris/v12/core/netutil"
-	macroHandler "github.com/kataras/iris/v12/macro/handler"
+	"github.com/8treenet/iris/v12/context"
+	"github.com/8treenet/iris/v12/core/errgroup"
+	"github.com/8treenet/iris/v12/core/netutil"
+	macroHandler "github.com/8treenet/iris/v12/macro/handler"
 
 	"github.com/kataras/golog"
 )

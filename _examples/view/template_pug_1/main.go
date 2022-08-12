@@ -1,7 +1,7 @@
 // Package main shows an example of pug actions based on https://github.com/Joker/jade/tree/master/example/actions
 package main
 
-import "github.com/kataras/iris/v12"
+import "github.com/8treenet/iris/v12"
 
 type Person struct {
 	Name   string

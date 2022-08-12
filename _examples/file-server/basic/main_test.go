@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kataras/iris/v12/httptest"
+	"github.com/8treenet/iris/v12/httptest"
 )
 
 const prefixURL = "/v1"

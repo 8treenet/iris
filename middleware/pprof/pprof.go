@@ -7,8 +7,8 @@ import (
 	rpprof "runtime/pprof"
 	"strings"
 
-	"github.com/kataras/iris/v12/context"
-	"github.com/kataras/iris/v12/core/handlerconv"
+	"github.com/8treenet/iris/v12/context"
+	"github.com/8treenet/iris/v12/core/handlerconv"
 )
 
 // New returns a new pprof (profile, cmdline, symbol, goroutine, heap, threadcreate, debug/block) Middleware.

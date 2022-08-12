@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/8treenet/iris/v12"
 	"github.com/kataras/golog"
-	"github.com/kataras/iris/v12"
 )
 
 // A Broker holds open client connections,

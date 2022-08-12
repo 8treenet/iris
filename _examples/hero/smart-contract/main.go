@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/context"
-	"github.com/kataras/iris/v12/hero"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/context"
+	"github.com/8treenet/iris/v12/hero"
 
 	// External package to optionally filter JSON responses before sent,
 	// see `sendJSON` for more.

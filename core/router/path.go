@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kataras/iris/v12/core/netutil"
-	"github.com/kataras/iris/v12/macro"
-	"github.com/kataras/iris/v12/macro/interpreter/ast"
-	"github.com/kataras/iris/v12/macro/interpreter/lexer"
+	"github.com/8treenet/iris/v12/core/netutil"
+	"github.com/8treenet/iris/v12/macro"
+	"github.com/8treenet/iris/v12/macro/interpreter/ast"
+	"github.com/8treenet/iris/v12/macro/interpreter/lexer"
 )
 
 // Param receives a parameter name prefixed with the ParamStart symbol.

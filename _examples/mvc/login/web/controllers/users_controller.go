@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"github.com/kataras/iris/v12/_examples/mvc/login/datamodels"
-	"github.com/kataras/iris/v12/_examples/mvc/login/services"
+	"github.com/8treenet/iris/v12/_examples/mvc/login/datamodels"
+	"github.com/8treenet/iris/v12/_examples/mvc/login/services"
 
-	"github.com/kataras/iris/v12"
+	"github.com/8treenet/iris/v12"
 )
 
 // UsersController is our /users API controller.

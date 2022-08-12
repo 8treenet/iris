@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"time"
 
+	"github.com/8treenet/iris/v12"
 	"github.com/Shopify/sarama"
-	"github.com/kataras/iris/v12"
 )
 
 /*

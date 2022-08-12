@@ -12,8 +12,8 @@ Read the routing examples and you will gain a deeper view, there are all covered
 */
 
 import (
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/mvc"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/mvc"
 )
 
 func main() {

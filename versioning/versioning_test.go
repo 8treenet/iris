@@ -3,9 +3,9 @@ package versioning_test
 import (
 	"testing"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/httptest"
-	"github.com/kataras/iris/v12/versioning"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/httptest"
+	"github.com/8treenet/iris/v12/versioning"
 )
 
 func notFoundHandler(ctx iris.Context) {

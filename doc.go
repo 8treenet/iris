@@ -44,7 +44,7 @@ Installation
 
 The only requirement is the Go Programming Language, at least version 1.13.
 
-    $ go get github.com/kataras/iris/v12@latest
+    $ go get github.com/8treenet/iris/v12@latest
 
 Wiki:
 

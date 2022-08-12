@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kataras/iris/v12/cache"
+	"github.com/8treenet/iris/v12/cache"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/context"
-	"github.com/kataras/iris/v12/httptest"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/context"
+	"github.com/8treenet/iris/v12/httptest"
 )
 
 func TestNoCache(t *testing.T) {

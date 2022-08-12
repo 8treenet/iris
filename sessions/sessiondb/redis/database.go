@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kataras/iris/v12/sessions"
+	"github.com/8treenet/iris/v12/sessions"
 
 	"github.com/kataras/golog"
 )

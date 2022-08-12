@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kataras/iris/v12/context"
-	"github.com/kataras/iris/v12/core/errgroup"
-	"github.com/kataras/iris/v12/macro"
-	macroHandler "github.com/kataras/iris/v12/macro/handler"
+	"github.com/8treenet/iris/v12/context"
+	"github.com/8treenet/iris/v12/core/errgroup"
+	"github.com/8treenet/iris/v12/macro"
+	macroHandler "github.com/8treenet/iris/v12/macro/handler"
 )
 
 // MethodNone is a Virtual method

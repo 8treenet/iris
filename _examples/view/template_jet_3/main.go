@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/view"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/view"
 )
 
 // https://github.com/kataras/iris/issues/1443

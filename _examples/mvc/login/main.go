@@ -5,15 +5,15 @@ package main
 import (
 	"time"
 
-	"github.com/kataras/iris/v12/_examples/mvc/login/datasource"
-	"github.com/kataras/iris/v12/_examples/mvc/login/repositories"
-	"github.com/kataras/iris/v12/_examples/mvc/login/services"
-	"github.com/kataras/iris/v12/_examples/mvc/login/web/controllers"
-	"github.com/kataras/iris/v12/_examples/mvc/login/web/middleware"
+	"github.com/8treenet/iris/v12/_examples/mvc/login/datasource"
+	"github.com/8treenet/iris/v12/_examples/mvc/login/repositories"
+	"github.com/8treenet/iris/v12/_examples/mvc/login/services"
+	"github.com/8treenet/iris/v12/_examples/mvc/login/web/controllers"
+	"github.com/8treenet/iris/v12/_examples/mvc/login/web/middleware"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/mvc"
-	"github.com/kataras/iris/v12/sessions"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/mvc"
+	"github.com/8treenet/iris/v12/sessions"
 )
 
 func main() {

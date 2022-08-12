@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/kataras/iris/v12/context"
-	"github.com/kataras/iris/v12/core/router"
+	"github.com/8treenet/iris/v12/context"
+	"github.com/8treenet/iris/v12/core/router"
 )
 
 type options struct {

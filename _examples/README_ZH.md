@@ -146,8 +146,8 @@ Iris 支持快速的请求数据，模型，持久性数据和绑定。
 
 ```go
 import (
-    "github.com/kataras/iris/v12"
-    "github.com/kataras/iris/v12/mvc"
+    "github.com/8treenet/iris/v12"
+    "github.com/8treenet/iris/v12/mvc"
 )
 
 func main() {

@@ -3,14 +3,14 @@
 package main
 
 import (
-	"github.com/kataras/iris/v12/_examples/hero/overview/datasource"
-	"github.com/kataras/iris/v12/_examples/hero/overview/repositories"
-	"github.com/kataras/iris/v12/_examples/hero/overview/services"
-	"github.com/kataras/iris/v12/_examples/hero/overview/web/middleware"
-	"github.com/kataras/iris/v12/_examples/hero/overview/web/routes"
+	"github.com/8treenet/iris/v12/_examples/hero/overview/datasource"
+	"github.com/8treenet/iris/v12/_examples/hero/overview/repositories"
+	"github.com/8treenet/iris/v12/_examples/hero/overview/services"
+	"github.com/8treenet/iris/v12/_examples/hero/overview/web/middleware"
+	"github.com/8treenet/iris/v12/_examples/hero/overview/web/routes"
 
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/hero"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/hero"
 )
 
 func main() {

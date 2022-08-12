@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/kataras/iris/v12/core/router"
-	"github.com/kataras/iris/v12/macro"
+	"github.com/8treenet/iris/v12/core/router"
+	"github.com/8treenet/iris/v12/macro"
 )
 
 const (

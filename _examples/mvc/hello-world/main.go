@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/mvc"
+	"github.com/8treenet/iris/v12"
+	"github.com/8treenet/iris/v12/mvc"
 
-	"github.com/kataras/iris/v12/middleware/logger"
-	"github.com/kataras/iris/v12/middleware/recover"
+	"github.com/8treenet/iris/v12/middleware/logger"
+	"github.com/8treenet/iris/v12/middleware/recover"
 )
 
 // This example is equivalent to the

@@ -26,7 +26,7 @@ Learn what [others saying about Iris](https://iris-go.com/testimonials/) and **[
 
 ```sh
 # https://github.com/kataras/iris/wiki/Installation
-$ go get github.com/kataras/iris/v12@latest
+$ go get github.com/8treenet/iris/v12@latest
 # assume the following code in example.go file
 $ cat example.go
 ```
@@ -34,7 +34,7 @@ $ cat example.go
 ```go
 package main
 
-import "github.com/kataras/iris/v12"
+import "github.com/8treenet/iris/v12"
 
 func main() {
     app := iris.New()
